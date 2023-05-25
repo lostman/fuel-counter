@@ -1,0 +1,13 @@
+---
+namespace: examples
+abi: "../../contracts/counter/out/release/counter-abi.json"
+identifier: counter_indexer
+fuel_client: ~
+graphql_schema: schema/counter_indexer.schema.graphql
+module:
+  wasm: target/wasm32-unknown-unknown/release/counter_indexer.wasm
+metrics: ~
+contract_id: ~
+start_block: ~
+end_block: ~
+resumable: ~
