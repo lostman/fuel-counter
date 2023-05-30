@@ -11,5 +11,6 @@ type Tx {
 }
 
 type IncrEntity {
+    id: ID!
     value: UInt8!
 }
